@@ -3,9 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>LinkMe! A jQuery Plugin</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="jquery.linkme/jquery.linkme.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('span').linkMe({
+				href: 'http://test.com',
+				text: 'click me' 
+			});
+		});
+	</script>
 </head>
 <body>
 	<h1>LinkMe Demo</h1>
-	<p>This is the jQuery LinkMe plugin demo. Let's make <span>this text </spane>into a link.</p>
+	<p>This is the jQuery LinkMe plugin demo. Let's make <span>this text </span>into a link.</p>
 </body>
 </html>
