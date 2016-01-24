@@ -1,0 +1,35 @@
+{
+    "name": "linkme",
+    "title": "LinkMe jQuery Plugin",
+    "description": "jQuery plugin for conversion of an element into a link.",
+    "keywords": [
+        "link",
+        "html",
+        "content"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Ben Stein",
+        "url": "https://bumstain.com"
+    },
+    "maintainers": [
+        {
+            "name": "Ben Stein",
+            "email": "bumstain@gmail.com",
+            "url": "http://bumstain.gmail"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/bumstain/linkme/blob/master/jquery.linkme/LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/jquery/jquery-color/issues",
+    "homepage": "https://github.com/bumstain/linkme",
+    "docs": "https://github.com/bumstain/linkme",
+    "download": "https://github.com/bumstain/linkme",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
